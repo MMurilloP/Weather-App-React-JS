@@ -2,6 +2,9 @@
 
 This is a simple weather app that allows users to check the weather conditions for a specific location.
 
+![Weather App](./src/assets/screenshot.png)
+
+
 ## Features
 
 - Users can enter a location to get the current weather information.
@@ -32,3 +35,21 @@ npm install
 - Get an API key from OpenWeatherMap by signing up for a free account.
 
 - Create a file named .env in the root directory of the project and add your API key.
+
+``````
+REACT_APP_API_KEY=your-api-key
+``````
+
+- Start the development server.
+``````
+npm start
+``````
+
+- Open your browser and navigate to http://localhost:3000 to use the app.
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
